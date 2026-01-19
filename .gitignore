@@ -1,0 +1,50 @@
+# --- Machine Learning Models ---
+# Ignore all trained models because they are too large (>1GB for SVM/HOG)
+# Group has provided a download link in README.md
+models/
+
+# --- Python & Environment & Caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.nv/
+.torch/
+.keras/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Flask & Web Demo ---
+uploads/*
+static/results/*
+!uploads/.gitkeep
+!static/results/.gitkeep
+
+# --- OS & IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Data & Build ---
+dataset/
+data/
+*.zip
+*.tar.gz
+build/
+dist/
+*.egg-info/
+
+# --- Logs ---
+*.log

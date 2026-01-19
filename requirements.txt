@@ -1,0 +1,22 @@
+# Core Data Science & Image Processing
+numpy
+opencv-python
+matplotlib
+seaborn
+pandas
+scipy
+scikit-image
+
+# Machine Learning (SVM, KNN, RF)
+scikit-learn
+joblib
+
+# Deep Learning (CNN)
+tensorflow
+keras-tuner
+
+# Hyperparameter Optimization
+optuna
+
+# Web Demo & API
+flask
